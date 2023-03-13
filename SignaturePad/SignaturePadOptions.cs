@@ -8,6 +8,8 @@ namespace SignaturePad
     {
         public int LineWidth { get; set; } = 1;
         public Color StrokeStyle { get; set; } = Color.FromArgb(34, 34, 34);
+        public string ClearSignatureText { get; set; } = "Clear Signature";
+        public bool EnableClearButton { get; set; } = true;
 
         public string ToJSON()
         {
